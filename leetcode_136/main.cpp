@@ -6,10 +6,13 @@
 //  Copyright © 2016 王青龙. All rights reserved.
 //
 
-#include <iostream>
+#include "Header.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    vector<int> vec={1,2,3,4,5,4,3,2,1};
+    Solution S;
+    cout<<S.singleNumber(vec)<<endl;
+
     return 0;
 }
